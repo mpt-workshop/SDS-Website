@@ -3,11 +3,16 @@ body {
     background-color: #FFE7BF;
 }
 
-.navbar-brand {
-    font-size: 2em;
+h1 {
+    font-size: 250%;
     font-weight: 700;
     color: #A10035;
-    margin-right: 45%;
+}
+
+.header {
+    text-align: center;
+    background-color: #fdadbd;
+    padding: 1% 0;
 }
 
 .sds-card {
@@ -67,15 +72,11 @@ h6 {
   }
 
  
-  @media (max-width: 640px) {
+  @media (max-width: 400px) {
     .navbar-brand {
-        font-size: 1.5em;
+        font-size: 150%;
         font-weight: 700;
         color: #A10035;
-        margin-right: 20%;
-  }
-
-  .navbar-collapse {
-    margin: 5% auto;
+        margin-right: 10%;
   }
 }
